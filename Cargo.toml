@@ -1,0 +1,13 @@
+[package]
+name = "egui-login-test"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["Matei Pralea <matei@pralea.me>"]
+
+[dependencies]
+eframe = "0.28.1"
+sha2 = "0.10.8"
+
+[profile.release]
+strip = true
